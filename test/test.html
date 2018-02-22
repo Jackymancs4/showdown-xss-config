@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+
+
+<script src="../node_modules/showdown/dist/showdown.min.js"></script>
+<script src="../node_modules/xss/dist/xss.min.js"></script>
+<script src="../showdown-xss-config.js"></script>
+
+</head>
+<body>
+
+  <script>
+
+    console.log(window)
+
+      let converter = new showdown.Converter({ extensions: [xssfilter()]});
+
+      var text = "<script>alert('xss!')<\/script>";
+      console.log(converter.makeHtml(text));
+
+  </script>
+
+</body>
+</html>
