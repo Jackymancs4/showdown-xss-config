@@ -1,6 +1,6 @@
 {
   "name": "showdown-xss-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "XSS configurable filter extension for showdown",
   "keywords": [
     "markdown",
