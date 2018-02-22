@@ -1,16 +1,18 @@
 {
-  "name": "showdown-xss-filter",
-  "description": "XSS filter extension for Showdown",
-  "homepage": "https://github.com/VisionistInc/showdown-xss-filter",
-  "authors": [
-    "Visionist, Inc. (http://www.visionistinc.com)"
+  "name": "showdown-xss-config",
+  "description": "XSS configurable filter extension for showdown",
+  "homepage": "https://github.com/jackymancs4/showdown-xss-config",
+  "author": "jackyman_cs4@live.it",
+  "contributors": [
+    "Visionist, Inc."
   ],
   "main": [
     "./showdown-xss-filter.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:VisionistInc/showdown-xss-filter.git"
+    "url": "https://github.com/jackymancs4/showdown-xss-config.git",
+    "web": "https://github.com/jackymancs4/showdown-xss-config"
   },
   "keywords": [
     "markdown",
@@ -20,6 +22,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "xss": "0.2.x"
+    "xss": "0.3.x"
   }
 }

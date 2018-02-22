@@ -1,31 +1,34 @@
 {
-  "name": "showdown-xss-filter",
-  "version": "0.2.0",
-  "description": "XSS filter extension for showdown",
+  "name": "showdown-xss-config",
+  "version": "1.0.0",
+  "description": "XSS configurable filter extension for showdown",
   "keywords": [
     "markdown",
     "showdown",
     "showdown extension",
     "xss"
   ],
-  "author": "Visionist, Inc.",
+  "author": "jackyman_cs4@live.it",
+  "contributors": [
+    "Visionist, Inc."
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VisionistInc/showdown-xss-filter.git",
-    "web": "https://github.com/VisionistInc/showdown-xss-filter"
+    "url": "https://github.com/jackymancs4/showdown-xss-config.git",
+    "web": "https://github.com/jackymancs4/showdown-xss-config"
   },
   "bugs": {
-    "url": "https://github.com/VisionistInc/showdown-xss-filter/issues"
+    "url": "https://github.com/jackymancs4/showdown-xss-config/issues"
   },
-  "main": "./showdown-xss-filter.js",
+  "main": "./showdown-xss-config.js",
   "dependencies": {
-    "xss": "0.2.x"
+    "xss": "0.3.x"
   },
   "devDependencies": {
     "expect.js": "~0.3.1",
     "mocha": "^2.2.4",
-    "showdown": "~1.3.0"
+    "showdown": "~1.8.0"
   },
   "scripts": {
     "test": "mocha"
