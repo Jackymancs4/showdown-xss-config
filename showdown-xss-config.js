@@ -6,7 +6,7 @@
 
   } else if (typeof define === 'function' && define.amd) {
     // AMD
-    define(['xssfilter'], myext);
+    define(['showdown-xss-config'], myext);
   } else if (typeof exports === 'object') {
     // Node, CommonJS-like
     module.exports = myext(require('showdown'));
